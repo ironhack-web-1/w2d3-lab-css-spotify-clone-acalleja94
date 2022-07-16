@@ -140,6 +140,7 @@ html, body, div, h1, h2, h3, img, a, p, ul, ol, li {
     width: 100%;
     box-sizing: border-box;
     padding: 100px 50px;
+    position: relative;
 }
 
 .app-box{
@@ -186,5 +187,8 @@ html, body, div, h1, h2, h3, img, a, p, ul, ol, li {
 
 .logo-white{
     max-width: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
 }
 
